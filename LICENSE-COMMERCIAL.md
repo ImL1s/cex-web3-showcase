@@ -75,7 +75,7 @@ You are responsible for compliance with the licenses of these third-party compon
 
 ## How to Obtain a Commercial License
 
-1. **Contact Us**: Email `license@your-domain.com` with:
+1. **Contact Us**: Email `license@cex-web3.io` with:
    - Your company name and contact information
    - Brief description of your intended use
    - Estimated user count
@@ -115,12 +115,12 @@ need to remove any public source code releases you may have made.
 ## Contact Information
 
 **Commercial Licensing Inquiries:**
-- 📧 Email: license@your-domain.com
-- 🌐 Website: https://your-domain.com/commercial
+- 📧 Email: license@cex-web3.io
+- 🌐 Website: https://cex-web3.io/commercial
 - 📱 Phone: [Your Phone Number]
 
 **Technical Pre-Sales Questions:**
-- 📧 Email: sales@your-domain.com
+- 📧 Email: sales@cex-web3.io
 
 ---
 

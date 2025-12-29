@@ -1,8 +1,7 @@
 <div align="center">
 
-<!-- Hero Banner Placeholder -->
-<!-- TODO: Replace with actual screenshot or generated banner -->
-<img src="assets/images/hero_banner_placeholder.png" alt="CEX Web3 Platform" width="100%">
+<!-- System Architecture Banner -->
+<img src="assets/images/system_architecture.png" alt="CEX Web3 Platform Architecture" width="100%">
 
 # CEX Web3 Exchange Platform
 
@@ -85,63 +84,51 @@
 
 ---
 
-## 🏗️ Architecture
+## 🏗️ System Architecture
 
-```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                              CEX Web3 Platform                               │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐   ┌─────────────┐    │
-│   │   Web App   │   │ Admin Panel │   │ Mobile App  │   │  API Users  │    │
-│   │  (Next.js)  │   │  (Next.js)  │   │  (Flutter)  │   │   (REST)    │    │
-│   └──────┬──────┘   └──────┬──────┘   └──────┬──────┘   └──────┬──────┘    │
-│          │                 │                 │                 │            │
-│          └─────────────────┴────────┬────────┴─────────────────┘            │
-│                                     │                                        │
-│                            ┌────────▼────────┐                              │
-│                            │   API Gateway   │                              │
-│                            │    (NestJS)     │                              │
-│                            └────────┬────────┘                              │
-│                                     │                                        │
-│   ┌─────────────────────────────────┼─────────────────────────────────┐     │
-│   │                                 │                                  │     │
-│   ▼                                 ▼                                  ▼     │
-│ ┌─────────────┐           ┌─────────────────┐           ┌─────────────┐     │
-│ │    Auth     │           │ Trading Engine  │           │   Wallet    │     │
-│ │   Module    │           │   (WebSocket)   │           │   Module    │     │
-│ ├─────────────┤           ├─────────────────┤           ├─────────────┤     │
-│ │ • JWT Auth  │           │ • Order Matching│           │ • HD Wallet │     │
-│ │ • 2FA/TOTP  │           │ • Order Book    │           │ • Multi-chain│    │
-│ │ • Sessions  │           │ • Trade Exec    │           │ • Hot/Cold  │     │
-│ └─────────────┘           └─────────────────┘           └─────────────┘     │
-│                                     │                                        │
-│   ┌─────────────────────────────────┼─────────────────────────────────┐     │
-│   │                                 │                                  │     │
-│   ▼                                 ▼                                  ▼     │
-│ ┌─────────────┐           ┌─────────────────┐           ┌─────────────┐     │
-│ │  KYC/AML    │           │    Deposits &   │           │   Admin     │     │
-│ │   Module    │           │   Withdrawals   │           │   Module    │     │
-│ └─────────────┘           └─────────────────┘           └─────────────┘     │
-│                                     │                                        │
-│                            ┌────────▼────────┐                              │
-│                            │   PostgreSQL    │                              │
-│                            │     + Redis     │                              │
-│                            └─────────────────┘                              │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
-                                     │
-                    ┌────────────────┼────────────────┐
-                    ▼                ▼                ▼
-            ┌─────────────┐  ┌─────────────┐  ┌─────────────┐
-            │  Ethereum   │  │   Bitcoin   │  │   Solana    │
-            │  BSC, etc.  │  │  LTC, DOGE  │  │ Tron, TON   │
-            └─────────────┘  └─────────────┘  └─────────────┘
-```
+<div align="center">
+<img src="assets/images/system_architecture.png" alt="System Architecture" width="90%">
+</div>
+
+### Architecture Overview
+
+**CEX Web3 Platform** is built on a modular microservices architecture:
+
+| Layer | Description |
+|-------|-------------|
+| **Client Layer** | Web (Next.js), Mobile (Flutter), Admin Dashboard |
+| **API Gateway** | NestJS REST API + WebSocket for real-time updates |
+| **Core Services** | Auth, Trading Engine, Wallet, KYC/AML, Deposits/Withdrawals |
+| **Data Layer** | PostgreSQL (persistent), Redis (cache/sessions) |
+| **Blockchain Layer** | 12+ chain integrations via abstracted providers |
 
 ---
 
-## 🔗 Supported Blockchains
+## 💹 Trading Flow
+
+<div align="center">
+<img src="assets/images/trading_flow.png" alt="Trading Flow" width="90%">
+</div>
+
+### How Orders Are Processed
+
+1. **Order Submission** → User places Buy/Sell order via API or WebSocket
+2. **Validation** → System checks balance, rate limits, and risk controls
+3. **Matching Engine** → Real-time order book matching algorithm
+4. **Trade Execution** → Matched orders are settled, balances updated atomically
+5. **Notification** → Real-time WebSocket push to all connected clients
+
+---
+
+## 💼 Multi-Chain Wallet
+
+<div align="center">
+<img src="assets/images/wallet_multichain.png" alt="Multi-Chain Support" width="80%">
+</div>
+
+### Supported Chains
+
+Our wallet system supports **12+ blockchains** with unified HD wallet derivation:
 
 | Chain | Type | Tokens | Status |
 |-------|------|--------|--------|
@@ -160,23 +147,42 @@
 
 ---
 
-## 📸 Screenshots
+## 💰 Deposit & Withdrawal Flow
 
-<!-- TODO: Add actual screenshots -->
+<div align="center">
+<img src="assets/images/deposit_withdrawal_flow.png" alt="Deposit & Withdrawal Flow" width="90%">
+</div>
+
+### Deposit Process
+1. User requests deposit address → System generates unique HD wallet address
+2. User sends crypto → Deposit Scanner monitors blockchain
+3. Transaction confirmed → Balance credited automatically
+
+### Withdrawal Process
+1. User requests withdrawal → KYC/AML verification
+2. Large amounts → Admin approval required
+3. Hot wallet signs transaction → Broadcast to blockchain
+4. Confirmation → User notified via push/email
+
+---
+
+## 📸 Product Screenshots
+
+> 🔜 Coming Soon - Real product screenshots will be added
 
 <table>
 <tr>
 <td width="33%">
-<img src="assets/images/screenshot_trading.png" alt="Trading Interface">
-<p align="center"><b>Trading Interface</b></p>
+<p align="center"><b>💹 Trading Interface</b></p>
+<p align="center">Real-time order book, TradingView charts, multiple order types</p>
 </td>
 <td width="33%">
-<img src="assets/images/screenshot_wallet.png" alt="Wallet">
-<p align="center"><b>Multi-Chain Wallet</b></p>
+<p align="center"><b>💼 Wallet Dashboard</b></p>
+<p align="center">Multi-chain balances, deposit/withdraw, transaction history</p>
 </td>
 <td width="33%">
-<img src="assets/images/screenshot_mobile.png" alt="Mobile App">
-<p align="center"><b>Mobile App</b></p>
+<p align="center"><b>📱 Mobile App</b></p>
+<p align="center">Full-featured trading on iOS & Android</p>
 </td>
 </tr>
 </table>
@@ -196,7 +202,7 @@
 
 | Platform | Download | Version |
 |----------|----------|---------|
-| Android | [📥 Download APK](https://github.com/YOUR_USERNAME/cex-web3-showcase/releases/latest) | v1.0.0 |
+| Android | [📥 Download APK](https://github.com/ImL1s/cex-web3-showcase/releases/latest) | v1.0.0 |
 | iOS | TestFlight (Coming Soon) | - |
 
 ---
@@ -234,7 +240,7 @@ This project is dual-licensed:
 
 ### Interested in Commercial License?
 
-📧 **Email**: [your@email.com](mailto:your@email.com)
+📧 **Email**: [aa22396584@gmail.com](mailto:aa22396584@gmail.com)
 
 **What's Included:**
 - ✅ Full source code access
@@ -257,7 +263,7 @@ See [LEGAL_DISCLAIMER.md](./LEGAL_DISCLAIMER.md) for important legal information
 
 ## 🔒 Security
 
-For security vulnerabilities, please email: [security@your-domain.com](mailto:security@your-domain.com)
+For security vulnerabilities, please email: [security@cex-web3.io](mailto:security@cex-web3.io)
 
 **Do NOT open public issues for security vulnerabilities.**
 

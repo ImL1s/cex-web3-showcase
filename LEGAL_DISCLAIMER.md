@@ -210,7 +210,7 @@ subject matter hereof.
 ## Contact
 
 For questions regarding this disclaimer:
-- 📧 Email: legal@your-domain.com
+- 📧 Email: legal@cex-web3.io
 
 ---
 

@@ -3,8 +3,8 @@
 ## Base URL
 
 ```
-Production: https://api.your-domain.com/api
-WebSocket:  wss://api.your-domain.com/engine
+Production: https://api.cex-web3.io/api
+WebSocket:  wss://api.cex-web3.io/engine
 ```
 
 ---
@@ -14,7 +14,7 @@ WebSocket:  wss://api.your-domain.com/engine
 ### Register
 
 ```bash
-curl -X POST https://api.your-domain.com/api/auth/register \
+curl -X POST https://api.cex-web3.io/api/auth/register \
   -H "Content-Type: application/json" \
   -d '{
     "email": "user@example.com",
@@ -39,7 +39,7 @@ curl -X POST https://api.your-domain.com/api/auth/register \
 ### Login
 
 ```bash
-curl -X POST https://api.your-domain.com/api/auth/login \
+curl -X POST https://api.cex-web3.io/api/auth/login \
   -H "Content-Type: application/json" \
   -d '{
     "email": "user@example.com",
@@ -50,7 +50,7 @@ curl -X POST https://api.your-domain.com/api/auth/login \
 ### Login with 2FA
 
 ```bash
-curl -X POST https://api.your-domain.com/api/auth/login \
+curl -X POST https://api.cex-web3.io/api/auth/login \
   -H "Content-Type: application/json" \
   -d '{
     "email": "user@example.com",
@@ -66,7 +66,7 @@ curl -X POST https://api.your-domain.com/api/auth/login \
 ### Place Limit Order
 
 ```bash
-curl -X POST https://api.your-domain.com/api/orders \
+curl -X POST https://api.cex-web3.io/api/orders \
   -H "Authorization: Bearer <access_token>" \
   -H "Content-Type: application/json" \
   -d '{
@@ -95,7 +95,7 @@ curl -X POST https://api.your-domain.com/api/orders \
 ### Place Market Order
 
 ```bash
-curl -X POST https://api.your-domain.com/api/orders \
+curl -X POST https://api.cex-web3.io/api/orders \
   -H "Authorization: Bearer <access_token>" \
   -H "Content-Type: application/json" \
   -d '{
@@ -109,14 +109,14 @@ curl -X POST https://api.your-domain.com/api/orders \
 ### Cancel Order
 
 ```bash
-curl -X DELETE https://api.your-domain.com/api/orders/<order-id> \
+curl -X DELETE https://api.cex-web3.io/api/orders/<order-id> \
   -H "Authorization: Bearer <access_token>"
 ```
 
 ### Get Order Book
 
 ```bash
-curl https://api.your-domain.com/api/market/orderbook/BTC-USDT
+curl https://api.cex-web3.io/api/market/orderbook/BTC-USDT
 ```
 
 **Response:**
@@ -140,7 +140,7 @@ curl https://api.your-domain.com/api/market/orderbook/BTC-USDT
 ### Get Balances
 
 ```bash
-curl https://api.your-domain.com/api/users/me/accounts \
+curl https://api.cex-web3.io/api/users/me/accounts \
   -H "Authorization: Bearer <access_token>"
 ```
 
@@ -157,7 +157,7 @@ curl https://api.your-domain.com/api/users/me/accounts \
 ### Get Deposit Address
 
 ```bash
-curl https://api.your-domain.com/api/deposit/address?chain=ethereum&currency=ETH \
+curl https://api.cex-web3.io/api/deposit/address?chain=ethereum&currency=ETH \
   -H "Authorization: Bearer <access_token>"
 ```
 
@@ -173,7 +173,7 @@ curl https://api.your-domain.com/api/deposit/address?chain=ethereum&currency=ETH
 ### Request Withdrawal
 
 ```bash
-curl -X POST https://api.your-domain.com/api/withdrawal \
+curl -X POST https://api.cex-web3.io/api/withdrawal \
   -H "Authorization: Bearer <access_token>" \
   -H "Content-Type: application/json" \
   -d '{
@@ -191,7 +191,7 @@ curl -X POST https://api.your-domain.com/api/withdrawal \
 ### Connect
 
 ```javascript
-const socket = io('wss://api.your-domain.com/engine', {
+const socket = io('wss://api.cex-web3.io/engine', {
   auth: { token: '<access_token>' }
 });
 ```
