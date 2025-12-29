@@ -1,0 +1,50 @@
+                    GNU AFFERO GENERAL PUBLIC LICENSE
+                       Version 3, 19 November 2007
+
+ Copyright (C) 2025 CEX Web3 Project
+ 
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Affero General Public License as published
+ by the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Affero General Public License for more details.
+
+ You should have received a copy of the GNU Affero General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+                       ADDITIONAL TERMS
+
+ As permitted by Section 7(b) of the AGPL-3.0, and as an additional condition
+ for the grant of rights under this license, you are required to preserve 
+ the following attribution notice in all copies or substantial portions of 
+ the Software:
+
+ "This software includes code from CEX Web3 Project (https://github.com/YOUR_USERNAME/cex_web3)"
+
+================================================================================
+                         COMMERCIAL LICENSE OPTION
+================================================================================
+
+ If you wish to use this software in a manner that is not compliant with the
+ AGPL-3.0 license (for example, in proprietary software that you do not wish
+ to release as open source), you may obtain a commercial license.
+
+ For commercial licensing inquiries, please contact:
+ - Email: license@your-domain.com
+ - Website: https://your-domain.com/commercial-license
+
+================================================================================
+                              THIRD-PARTY NOTICES
+================================================================================
+
+ This software incorporates open source components. See THIRD_PARTY_NOTICES.md
+ for a list of such components and their respective licenses.
+
+================================================================================
+
+ The complete AGPL-3.0 license text can be found at:
+ https://www.gnu.org/licenses/agpl-3.0.txt
