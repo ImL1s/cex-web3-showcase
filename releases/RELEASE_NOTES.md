@@ -27,11 +27,21 @@ Enterprise-grade cryptocurrency exchange platform with multi-chain wallet suppor
 
 ## ⚠️ Important Notice
 
-This is a **demonstration release**. The APK connects to a development/demo backend.
+> **Demo Backend Not Yet Available**
 
-**DO NOT** use this for production or with real funds.
+This is a **UI preview release**. The APK is functional but:
 
-See [LEGAL_DISCLAIMER.md](../LEGAL_DISCLAIMER.md) for full legal information.
+- ❌ **No backend server deployed yet** - The app cannot connect to any server
+- ✅ **UI/UX fully explorable** - Browse the interface and see the design
+- ✅ **Code quality demonstration** - Shows production-ready architecture
+
+### What's Next?
+- Demo backend deployment (coming soon)
+- Web demo on Vercel
+- iOS TestFlight release
+
+### Want a Live Demo?
+Contact us for a private demo session: aa22396584@gmail.com
 
 ---
 

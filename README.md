@@ -200,10 +200,25 @@ Our wallet system supports **12+ blockchains** with unified HD wallet derivation
 
 ## 📱 Download APK
 
-| Platform | Download | Version |
-|----------|----------|---------|
-| Android | [📥 Download APK](https://github.com/ImL1s/cex-web3-showcase/releases/latest) | v1.0.0 |
-| iOS | TestFlight (Coming Soon) | - |
+> ⚠️ **Demo Backend Not Yet Available**
+> 
+> The APK is available for download, but the demo backend server is **not yet deployed**.
+> Currently, the app will not be able to connect to any server.
+> 
+> **What you can explore:**
+> - UI/UX design and navigation
+> - App architecture and code quality
+> 
+> **Coming soon:**
+> - Live demo backend for full functionality testing
+> - Web demo deployment
+>
+> **Interested in a live demo?** Contact us at aa22396584@gmail.com
+
+| Platform | Download | Version | Status |
+|----------|----------|---------|--------|
+| Android | [📥 Download APK](https://github.com/ImL1s/cex-web3-showcase/releases/latest) | v1.0.0 | ⚠️ UI Only |
+| iOS | TestFlight (Coming Soon) | - | 🔜 |
 
 ---
 
