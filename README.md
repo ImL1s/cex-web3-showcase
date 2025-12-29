@@ -147,6 +147,68 @@ Our wallet system supports **12+ blockchains** with unified HD wallet derivation
 
 ---
 
+## 🏦 Wallet Security Architecture
+
+<div align="center">
+<img src="assets/images/wallet_architecture.png" alt="Wallet Security Architecture" width="90%">
+</div>
+
+### Fund Management Tiers
+
+| Tier | Purpose | Security Level |
+|------|---------|----------------|
+| **Hot Wallet** | Instant withdrawals | Online, < $100k |
+| **Warm Wallet** | Replenishment buffer | Semi-online, $100k-$1M |
+| **Cold Wallet** | Long-term storage | Offline/HSM, > $1M |
+
+**Consolidation Process**: User deposits are automatically consolidated into hot wallet for efficient fund management.
+
+---
+
+## ⚙️ Matching Engine
+
+<div align="center">
+<img src="assets/images/matching_engine.png" alt="Matching Engine Architecture" width="90%">
+</div>
+
+### Performance Features
+- **< 10ms** order matching latency
+- **Price-Time Priority** algorithm
+- **Real-time** WebSocket order book updates
+- Support for **Limit, Market, Stop-Loss, OCO** orders
+
+---
+
+## 🛡️ KYC/AML Compliance
+
+<div align="center">
+<img src="assets/images/kyc_aml_flow.png" alt="KYC/AML Compliance Flow" width="90%">
+</div>
+
+### Verification Levels
+
+| Level | Requirements | Daily Limit |
+|-------|-------------|-------------|
+| **Level 0** | Email only | $0 (view only) |
+| **Level 1** | ID + Selfie | $10,000 |
+| **Level 2** | Address proof | $100,000 |
+| **Level 3** | Source of funds | Unlimited |
+
+---
+
+## 🔒 Security Architecture
+
+<div align="center">
+<img src="assets/images/security_architecture.png" alt="Security Architecture" width="80%">
+</div>
+
+### Multi-Layer Protection
+- **Perimeter**: DDoS protection, WAF, Rate limiting
+- **Authentication**: JWT, 2FA (TOTP), API keys with scoped permissions
+- **Application**: Input validation, SQL injection prevention, XSS/CSRF protection
+- **Data**: Encryption at rest, Audit logging, Backup & recovery
+- **Wallet**: HSM, Multi-sig, Cold storage, Withdrawal approval workflow
+
 ## 💰 Deposit & Withdrawal Flow
 
 <div align="center">
