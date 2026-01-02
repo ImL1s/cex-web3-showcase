@@ -108,7 +108,9 @@
 
 ### 行動應用
 
-![行動應用 - iOS & Android 完整功能](assets/screenshots/mobile_current_screen.png)
+<div align="center">
+<img src="assets/screenshots/mobile_current_screen.png" alt="行動應用 - iOS & Android 完整功能" width="300">
+</div>
 
 ### 管理後台
 

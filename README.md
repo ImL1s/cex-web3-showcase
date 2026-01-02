@@ -252,7 +252,9 @@ Our wallet system supports **12+ blockchains** with unified HD wallet derivation
 
 ### Mobile Application
 
-![Mobile App - Full-featured trading on iOS & Android](assets/screenshots/mobile_current_screen.png)
+<div align="center">
+<img src="assets/screenshots/mobile_current_screen.png" alt="Mobile App - Full-featured trading on iOS & Android" width="300">
+</div>
 
 ### Admin Dashboard
 
