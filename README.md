@@ -277,7 +277,7 @@ Our wallet system supports **12+ blockchains** with unified HD wallet derivation
 
 | Platform | Download | Version | Status |
 |----------|----------|---------|--------|
-| Android | [📥 Download APK](https://github.com/ImL1s/cex-web3-showcase/releases/latest) | v1.0.0 | ✅ Connected to Live Backend |
+| Android | [📥 Download APK](https://github.com/ImL1s/cex-web3-showcase/releases/download/v1.1.0/cex-web3-showcase-v1.1.0.apk) | v1.1.0 | ✅ Connected to Live Backend |
 | iOS | TestFlight (Coming Soon) | - | 🔜 |
 
 ---
