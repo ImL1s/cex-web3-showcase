@@ -250,15 +250,13 @@ Our wallet system supports **12+ blockchains** with unified HD wallet derivation
 
 ### Mobile Application
 
-![Onboarding - Experience the platform on mobile](assets/screenshots/mobile_01_onboarding.png)
-
-![Login - Secure mobile authentication](assets/screenshots/mobile_02_login.png)
-
-![Dashboard - Market overview and quick actions](assets/screenshots/mobile_03_dashboard.png)
-
-![Wallet - Unified multi-chain wallet](assets/screenshots/mobile_04_wallet.png)
-
-![Trading - Professional trading tools on the go](assets/screenshots/mobile_05_trade.png)
+<div align="center">
+  <img src="assets/screenshots/mobile_01_onboarding.png" width="250" alt="Onboarding">
+  <img src="assets/screenshots/mobile_02_login.png" width="250" alt="Login">
+  <img src="assets/screenshots/mobile_03_dashboard.png" width="250" alt="Dashboard">
+  <img src="assets/screenshots/mobile_04_wallet.png" width="250" alt="Wallet">
+  <img src="assets/screenshots/mobile_05_trade.png" width="250" alt="Trade">
+</div>
 
 ### Admin Dashboard
 

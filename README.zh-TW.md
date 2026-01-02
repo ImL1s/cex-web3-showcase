@@ -106,15 +106,13 @@
 
 ### Mobile 行動應用
 
-![開始使用 - 在手機上體驗平台](assets/screenshots/mobile_01_onboarding.png)
-
-![登入 - 安全的手機身分驗證](assets/screenshots/mobile_02_login.png)
-
-![儀表板 - 市場概覽與快速操作](assets/screenshots/mobile_03_dashboard.png)
-
-![錢包 - 統一的多鏈錢包](assets/screenshots/mobile_04_wallet.png)
-
-![交易 - 隨時隨地的專業交易工具](assets/screenshots/mobile_05_trade.png)
+<div align="center">
+  <img src="assets/screenshots/mobile_01_onboarding.png" width="250" alt="開始使用">
+  <img src="assets/screenshots/mobile_02_login.png" width="250" alt="登入">
+  <img src="assets/screenshots/mobile_03_dashboard.png" width="250" alt="儀表板">
+  <img src="assets/screenshots/mobile_04_wallet.png" width="250" alt="錢包">
+  <img src="assets/screenshots/mobile_05_trade.png" width="250" alt="交易">
+</div>
 
 ### Admin 管理者後台
 
