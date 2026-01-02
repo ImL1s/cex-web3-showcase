@@ -88,49 +88,43 @@
 
 ### Web 網頁應用
 
-````carousel
 ![主頁 - 特色亮點登錄頁](assets/screenshots/web_homepage.png)
-<!-- slide -->
+
 ![註冊 - 加入下一代交易員行列](assets/screenshots/web_06_register.png)
-<!-- slide -->
+
 ![登入 - 安全的身分驗證介面](assets/screenshots/web_login.png)
-<!-- slide -->
+
 ![交易 - 即時掛單簿與圖表整合](assets/screenshots/web_02_trade.png)
-<!-- slide -->
+
 ![錢包 - 多鏈資產管理](assets/screenshots/web_03_wallet.png)
-<!-- slide -->
+
 ![質押 - 透過加密資產賺取獎勵](assets/screenshots/web_04_staking.png)
-<!-- slide -->
+
 ![訂單 - 訂單歷史與管理](assets/screenshots/web_05_orders.png)
-<!-- slide -->
+
 ![設定 - 帳戶安全與偏好設定](assets/screenshots/web_settings.png)
-````
 
 ### Mobile 行動應用
 
-````carousel
 ![開始使用 - 在手機上體驗平台](assets/screenshots/mobile_01_onboarding.png)
-<!-- slide -->
+
 ![登入 - 安全的手機身分驗證](assets/screenshots/mobile_02_login.png)
-<!-- slide -->
+
 ![儀表板 - 市場概覽與快速操作](assets/screenshots/mobile_03_dashboard.png)
-<!-- slide -->
+
 ![錢包 - 統一的多鏈錢包](assets/screenshots/mobile_04_wallet.png)
-<!-- slide -->
+
 ![交易 - 隨時隨地的專業交易工具](assets/screenshots/mobile_05_trade.png)
-````
 
 ### Admin 管理者後台
 
-````carousel
 ![管理後台 - 系統總覽與指標](assets/screenshots/admin_dashboard_final.png)
-<!-- slide -->
+
 ![訂單監控 - 即時訂單追蹤](assets/screenshots/admin_order_monitor_final.png)
-<!-- slide -->
+
 ![用戶管理 - 用戶帳戶與 KYC 狀態](assets/screenshots/phase3_users.png)
-<!-- slide -->
+
 ![提現管理 - 待審批提現](assets/screenshots/admin_withdrawals_check.png)
-````
 
 ---
 
