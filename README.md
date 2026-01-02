@@ -255,31 +255,29 @@ Our wallet system supports **12+ blockchains** with unified HD wallet derivation
 
 | Platform | Link | Status |
 |----------|------|--------|
-| 🌐 Web App | [Coming Soon](#) | 🔜 |
-| 👨‍💼 Admin Panel | [Coming Soon](#) | 🔜 |
+| 🌐 Web App | [cex-web3-demo.vercel.app](https://web-7s72eqotu-aa22396584-6131s-projects.vercel.app) | ✅ Live |
+| 📡 Backend API | [backend-production-ae3a.up.railway.app](https://backend-production-ae3a.up.railway.app/api) | ✅ Live |
 
 ---
 
 ## 📱 Download APK
 
-> ⚠️ **Demo Backend Not Yet Available**
+> ⚠️ **Demo Mode**
 > 
-> The APK is available for download, but the demo backend server is **not yet deployed**.
-> Currently, the app will not be able to connect to any server.
-> 
-> **What you can explore:**
-> - UI/UX design and navigation
-> - App architecture and code quality
-> 
-> **Coming soon:**
-> - Live demo backend for full functionality testing
-> - Web demo deployment
+> The demo backend is deployed with **省錢模式 (Cost-Saving Mode)**:
+> - Lazy Scanning: Blockchain scanning is triggered on-demand
+> - Testnet Only: Sepolia network for EVM chains
+> - No real funds are at risk
 >
-> **Interested in a live demo?** Contact us at aa22396584@gmail.com
+> **Full features available:**
+> - User registration & login
+> - Wallet address generation
+> - Balance checking (triggers lazy scan)
+> - Order placement & trading
 
 | Platform | Download | Version | Status |
 |----------|----------|---------|--------|
-| Android | [📥 Download APK](https://github.com/ImL1s/cex-web3-showcase/releases/latest) | v1.0.0 | ⚠️ UI Only |
+| Android | [📥 Download APK](https://github.com/ImL1s/cex-web3-showcase/releases/latest) | v1.0.0 | ✅ Connected to Live Backend |
 | iOS | TestFlight (Coming Soon) | - | 🔜 |
 
 ---
