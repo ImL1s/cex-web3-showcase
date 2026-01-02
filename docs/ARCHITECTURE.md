@@ -1,5 +1,7 @@
 # CEX Web3 Platform - Architecture
 
+**English** | 🌐 [繁體中文](./ARCHITECTURE.zh-TW.md)
+
 ## System Overview
 
 CEX Web3 is a full-stack cryptocurrency exchange platform built with modern technologies and designed for scalability, security, and multi-chain support.

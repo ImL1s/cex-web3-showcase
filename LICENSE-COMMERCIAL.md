@@ -1,5 +1,7 @@
 # Commercial License Agreement
 
+**English** | 🌐 [繁體中文](./LICENSE-COMMERCIAL.zh-TW.md)
+
 ## CEX Web3 Platform - Commercial License
 
 This Commercial License Agreement ("Agreement") is offered by [Your Company Name] ("Licensor") 

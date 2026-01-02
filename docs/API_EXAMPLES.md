@@ -1,5 +1,7 @@
 # CEX Web3 Platform - API Examples
 
+**English** | 🌐 [繁體中文](./API_EXAMPLES.zh-TW.md)
+
 ## Base URL
 
 ```

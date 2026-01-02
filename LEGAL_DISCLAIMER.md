@@ -1,5 +1,7 @@
 # Legal Disclaimer
 
+**English** | 🌐 [繁體中文](./LEGAL_DISCLAIMER.zh-TW.md)
+
 ## CEX Web3 Platform - Important Legal Notice
 
 > **READ THIS ENTIRE DISCLAIMER CAREFULLY BEFORE USING THIS SOFTWARE.**  
