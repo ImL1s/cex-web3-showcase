@@ -13,6 +13,8 @@
 [![Flutter](https://img.shields.io/badge/Flutter-3.x-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 
+**English** | 🌐 [繁體中文](./README.zh-TW.md)
+
 [🚀 Live Demo](#-live-demo) • [📱 Download APK](#-download-apk) • [💼 Commercial License](#-commercial-license) • [📖 Documentation](#-documentation)
 
 </div>
