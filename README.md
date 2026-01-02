@@ -230,31 +230,39 @@ Our wallet system supports **12+ blockchains** with unified HD wallet derivation
 
 ---
 
-## 📸 Product Screenshots
-
 ### Web Application
 
 ````carousel
 ![Homepage - Landing page with feature highlights](assets/screenshots/web_homepage.png)
 <!-- slide -->
+![Register - Join the next generation of traders](assets/screenshots/web_06_register.png)
+<!-- slide -->
 ![Login - Secure authentication interface](assets/screenshots/web_login.png)
 <!-- slide -->
-![Trading - Real-time order book and chart integration](assets/screenshots/web_trade.png)
+![Trading - Real-time order book and chart integration](assets/screenshots/web_02_trade.png)
 <!-- slide -->
-![Wallet - Multi-chain asset management](assets/screenshots/web_wallet.png)
+![Wallet - Multi-chain asset management](assets/screenshots/web_03_wallet.png)
 <!-- slide -->
-![Orders - Order history and management](assets/screenshots/web_orders.png)
+![Staking - Earn rewards on crypto assets](assets/screenshots/web_04_staking.png)
 <!-- slide -->
-![Staking - Earn rewards on crypto assets](assets/screenshots/web_staking.png)
+![Orders - Order history and management](assets/screenshots/web_05_orders.png)
 <!-- slide -->
 ![Settings - Account security and preferences](assets/screenshots/web_settings.png)
 ````
 
 ### Mobile Application
 
-<div align="center">
-<img src="assets/screenshots/mobile_current_screen.png" alt="Mobile App - Full-featured trading on iOS & Android" width="300">
-</div>
+````carousel
+![Onboarding - Experience the platform on mobile](assets/screenshots/mobile_01_onboarding.png)
+<!-- slide -->
+![Login - Secure mobile authentication](assets/screenshots/mobile_02_login.png)
+<!-- slide -->
+![Dashboard - Market overview and quick actions](assets/screenshots/mobile_03_dashboard.png)
+<!-- slide -->
+![Wallet - Unified multi-chain wallet](assets/screenshots/mobile_04_wallet.png)
+<!-- slide -->
+![Trading - Professional trading tools on the go](assets/screenshots/mobile_05_trade.png)
+````
 
 ### Admin Dashboard
 

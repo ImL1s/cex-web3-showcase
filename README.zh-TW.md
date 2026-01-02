@@ -86,33 +86,41 @@
 
 ---
 
-## 📸 產品截圖
-
-### 網頁應用
+### Web 網頁應用
 
 ````carousel
-![首頁 - 功能特色展示](assets/screenshots/web_homepage.png)
+![主頁 - 特色亮點登錄頁](assets/screenshots/web_homepage.png)
 <!-- slide -->
-![登入 - 安全認證介面](assets/screenshots/web_login.png)
+![註冊 - 加入下一代交易員行列](assets/screenshots/web_06_register.png)
 <!-- slide -->
-![交易 - 即時訂單簿與圖表整合](assets/screenshots/web_trade.png)
+![登入 - 安全的身分驗證介面](assets/screenshots/web_login.png)
 <!-- slide -->
-![錢包 - 多鏈資產管理](assets/screenshots/web_wallet.png)
+![交易 - 即時掛單簿與圖表整合](assets/screenshots/web_02_trade.png)
 <!-- slide -->
-![訂單 - 訂單歷史與管理](assets/screenshots/web_orders.png)
+![錢包 - 多鏈資產管理](assets/screenshots/web_03_wallet.png)
 <!-- slide -->
-![質押 - 加密資產收益](assets/screenshots/web_staking.png)
+![質押 - 透過加密資產賺取獎勵](assets/screenshots/web_04_staking.png)
+<!-- slide -->
+![訂單 - 訂單歷史與管理](assets/screenshots/web_05_orders.png)
 <!-- slide -->
 ![設定 - 帳戶安全與偏好設定](assets/screenshots/web_settings.png)
 ````
 
-### 行動應用
+### Mobile 行動應用
 
-<div align="center">
-<img src="assets/screenshots/mobile_current_screen.png" alt="行動應用 - iOS & Android 完整功能" width="300">
-</div>
+````carousel
+![開始使用 - 在手機上體驗平台](assets/screenshots/mobile_01_onboarding.png)
+<!-- slide -->
+![登入 - 安全的手機身分驗證](assets/screenshots/mobile_02_login.png)
+<!-- slide -->
+![儀表板 - 市場概覽與快速操作](assets/screenshots/mobile_03_dashboard.png)
+<!-- slide -->
+![錢包 - 統一的多鏈錢包](assets/screenshots/mobile_04_wallet.png)
+<!-- slide -->
+![交易 - 隨時隨地的專業交易工具](assets/screenshots/mobile_05_trade.png)
+````
 
-### 管理後台
+### Admin 管理者後台
 
 ````carousel
 ![管理後台 - 系統總覽與指標](assets/screenshots/admin_dashboard_final.png)
