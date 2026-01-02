@@ -86,6 +86,44 @@
 
 ---
 
+## 📸 產品截圖
+
+### 網頁應用
+
+````carousel
+![首頁 - 功能特色展示](assets/screenshots/web_homepage.png)
+<!-- slide -->
+![登入 - 安全認證介面](assets/screenshots/web_login.png)
+<!-- slide -->
+![交易 - 即時訂單簿與圖表整合](assets/screenshots/web_trade.png)
+<!-- slide -->
+![錢包 - 多鏈資產管理](assets/screenshots/web_wallet.png)
+<!-- slide -->
+![訂單 - 訂單歷史與管理](assets/screenshots/web_orders.png)
+<!-- slide -->
+![質押 - 加密資產收益](assets/screenshots/web_staking.png)
+<!-- slide -->
+![設定 - 帳戶安全與偏好設定](assets/screenshots/web_settings.png)
+````
+
+### 行動應用
+
+![行動應用 - iOS & Android 完整功能](assets/screenshots/mobile_current_screen.png)
+
+### 管理後台
+
+````carousel
+![管理後台 - 系統總覽與指標](assets/screenshots/admin_dashboard_final.png)
+<!-- slide -->
+![訂單監控 - 即時訂單追蹤](assets/screenshots/admin_order_monitor_final.png)
+<!-- slide -->
+![用戶管理 - 用戶帳戶與 KYC 狀態](assets/screenshots/phase3_users.png)
+<!-- slide -->
+![提現管理 - 待審批提現](assets/screenshots/admin_withdrawals_check.png)
+````
+
+---
+
 ## 🚀 線上演示
 
 | 平台 | 連結 | 狀態 |
